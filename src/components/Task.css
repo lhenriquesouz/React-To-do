@@ -9,3 +9,11 @@
     align-items: center;
     cursor: pointer;
 }
+
+.remove-task-button, .see-task-details-button{
+    background-color: #444;
+    border: none;
+    font-size: 22px;
+    color: chartreuse;
+    cursor: pointer;
+}
