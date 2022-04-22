@@ -13,10 +13,27 @@
     cursor: pointer;
 }
 
+.buttons-container{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.task-title{
+    cursor: pointer;
+    -webkit-touch-callout: none;  /* iPhone OS, Safari */
+    -webkit-user-select: none;    /* Chrome, Safari 3 */
+    -khtml-user-select: none;     /* Safari 2 */
+    -moz-user-select: none;       /* Firefox */
+    -ms-user-select: none;        /* IE10+ */
+    user-select: none;            /* Possível implementação no futuro */
+}
+
 .remove-task-button, .see-task-details-button{
     background-color: #444;
     border: none;
     font-size: 22px;
     color: chartreuse;
     cursor: pointer;
+    margin: 0 5px;
 }
