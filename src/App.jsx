@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import {v4 as uuidv4} from "uuid";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Tasks from "./components/Tasks";
 import AddTask from "./components/AddTask";
@@ -67,7 +67,7 @@ const App = () => {
 							<Tasks
 								tasks={tasks}
 								handleTaskClick={handleTaskClick}
-								handleTaskDeletion={handleTaskRemove}
+								handleTaskRemove={handleTaskRemove}
 							/>
 			</div>
 		</Router>

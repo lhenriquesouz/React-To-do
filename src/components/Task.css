@@ -7,6 +7,9 @@
     justify-content: space-between;
     color: #eee;
     align-items: center;
+}
+
+.task-title{
     cursor: pointer;
 }
 
