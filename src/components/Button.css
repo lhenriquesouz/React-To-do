@@ -1,5 +1,5 @@
 .button {
-    background-color: rgb(252, 1, 231);
+    background-color: #01fc22;
     height: 40px;
     padding: 0 10px;
     border-radius: 5px;
@@ -13,7 +13,7 @@
 }
 
 .button:hover {
-    background-color: rgb(252, 1, 231);
+    background-color: #01fc22;
     color: #0112fc;
     transition: .3s;
 }
