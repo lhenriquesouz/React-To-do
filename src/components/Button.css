@@ -1,5 +1,5 @@
-.button{
-    background-color: #3cfc01;
+.button {
+    background-color: #0112fc;
     height: 40px;
     padding: 0 10px;
     border-radius: 5px;
@@ -12,8 +12,8 @@
     transition: .3s;
 }
 
-.button:hover{
+.button:hover {
     background-color: #444;
-    color: #3cfc01;
+    color: ##0112fc;
     transition: .3s;
 }
