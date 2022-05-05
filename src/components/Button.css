@@ -1,5 +1,5 @@
 .button{
-    background-color: chartreuse;
+    background-color: #5ED4F3;
     height: 40px;
     padding: 0 10px;
     border-radius: 5px;
@@ -14,7 +14,7 @@
 
 .button:hover{
     background-color: #444;
-    color: chartreuse;
+    color: #5ED4F3;
     transition: .3s;
 }
 
