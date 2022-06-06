@@ -1,4 +1,4 @@
-.task-details-container{
+.task-details-container {
     background-color: #444;
     margin: 15px 0;
     padding: 15px 20px;
@@ -8,12 +8,12 @@
     border-radius: 5px;
 }
 
-.task-details-container h2{
+.task-details-container h2 {
     margin-bottom: 5px;
-    color: #5ED4F3;
+    color: #95f35e;
 }
 
-.back-button-container{
+.back-button-container {
     width: 30%;
     margin-top: 10px;
 }
